@@ -3,7 +3,7 @@ importScripts("/static/uv/uv.sw.js");
 
 self.__uv$config = {
   prefix: "/service/",
-  bare: "https://bare.boomproxy.xyz",
+  bare: "https://focus-bare-iota.vercel.app/",
 };
 
 const sw = new UVServiceWorker(self.__uv$config);
