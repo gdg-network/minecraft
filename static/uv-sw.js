@@ -3,7 +3,7 @@ importScripts("/static/uv/uv.sw.js");
 
 self.__uv$config = {
   prefix: "/service/",
-  bare: "/bare/",
+  bare: "https://bare.boomproxy.xyz",
 };
 
 const sw = new self.UVServiceWorker(self.__uv$config);
