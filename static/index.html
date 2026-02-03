@@ -75,6 +75,11 @@
       <script src="register-sw.js" defer></script>
       <script src="search.js" defer></script>
       <script src="index.js" defer></script>
+          <script>
+          navigator.serviceWorker.register("/uv-sw.js", {
+  scope: "/"
+});
+     </script>
       <div id="footer">
 
          <p>&copy; 2024 gdg-network (has Liam, Nick, Lucas, and ferret man).</p>
